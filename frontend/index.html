@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- app monorepo
+  0. criando o frontend (baixar a versão mais atual ZIPADA do vscode) 
+  yarn create vite frontend --template react-ts
+  yarn (instalar as dependências do package.json); yarn dev (para executar o app) 
+  1. yarn para instalar as dependências
+  2. yarn add typescript --dev ; ctrl + shift + p (digite: typescript version)
+     https://bobbyhadz.com/blog/react-cannot-use-jsx-unless-the-jsx-flag-is-provided#:~:text=To%20solve%20the%20error%20%22Cannot,IDE's%20TypeScript%20versions%20should%20match.
+  3. yarn dev para executar o app
+
+  1. criando o backend https://start.spring.io/ (maven eh igual ao yarn, gerenciador de dependências)
+  parâmetros dependências: web; jpa; h2; security
+  2. carregar o backend, impotardando no STS 4, para o maven baixar as dependências
+  3. Ajustar o pom.xml (dependências:...)
+  <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-resources-plugin</artifactId>
+	<version>3.1.0</version><!-$NO-MVN-MAN-VER$ ->
+</plugin>
+  3. Forçar as atualizações, através do maven->update project, marcar forçar update  
+-->
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

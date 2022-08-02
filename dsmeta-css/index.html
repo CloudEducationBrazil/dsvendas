@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <!--Git/Github - Youtube: Tutorial Git e Github 2022  - Introdução prática para iniciantes -->
+  <!-- nodejs 16; yarn; STS 4 ou intelliJ; VSCode; git e github -->
+  <!-- extensões: live server; intellicode; eslint; jsx html -->
+  <!-- vite programa para auxiliar criar app react com ts https://vitejs.dev/guide/#trying-vite-online -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DSVendas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="dsmeta-logo-container">
+        <img src="logoDSMETA.svg" alt="DSMeta" />
+        <h1>DSMeta</h1>
+        <p>
+          Desenvolvido por
+          <a href="https://github.com/CloudEducationBrazil/"
+            >@cloudeducationbrazil</a
+          >
+        </p>
+        <!--shift+alt+f, para indentar -->
+      </div>
+    </header>
+
+    <main>
+      <section id="sales">
+        <div class="dsmeta-container">
+          <div class="dsmeta-card">
+            <h2 class="dsmeta-sales-title">Vendas</h2>
+            <div>
+              <div class="dsmeta-form-control-container">
+                <input
+                  class="dsmeta-form-control"
+                  type="date"
+                  name="nm-dti-vendas"
+                  id="id-dti-vendas"
+                />
+              </div>
+              <div class="dsmeta-form-control-container">
+                <input
+                  class="dsmeta-form-control"
+                  type="date"
+                  name="nm-dtf-vendas"
+                  id="id-dtf-vendas"
+                />
+              </div>
+            </div>
+
+            <div class="dsmeta-sales-table-container">
+              <table class="dsmeta-sales-table">
+                <thead>
+                  <tr>
+                    <th class="show992">ID</th>
+                    <th class="show576">Data</th>
+                    <th>Vendedor</th>
+                    <th class="show992">Visitas</th>
+                    <th class="show992">Vendas</th>
+                    <th>Total</th>
+                    <th>Notificar</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="show992">#1</td>
+                    <td class="show576">27/03/2005</td>
+                    <td>Julia</td>
+                    <td class="show992">10</td>
+                    <td class="show992">12</td>
+                    <td>1900.00</td>
+                    <td>
+                      <div class="dsmeta-red-btn-container">
+                        <div class="dsmeta-red-btn">
+                          <img src="notification-icon.svg" alt="Notificar" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="show992">#2</td>
+                    <td class="show576">21/04/1971</td>
+                    <td>Josy</td>
+                    <td class="show992">23</td>
+                    <td class="show992">18</td>
+                    <td>3200.67</td>
+                    <td>
+                      <div class="dsmeta-red-btn-container">
+                        <div class="dsmeta-red-btn">
+                          <img src="notification-icon.svg" alt="Notificar" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="show992">#3</td>
+                    <td class="show576">02/01/1953</td>
+                    <td>Maria</td>
+                    <td class="show992">35</td>
+                    <td class="show992">13</td>
+                    <td>5400.43</td>
+                    <td>
+                      <div class="dsmeta-red-btn-container">
+                        <div class="dsmeta-red-btn">
+                          <img src="notification-icon.svg" alt="Notificar" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
