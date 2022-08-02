@@ -50,7 +50,7 @@ INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Kal-El',57,
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Kal-El',78,60,5253.0,'2022-01-06');
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Carlos Telles',81,53,11553.0,'2022-01-04');
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Kal-El',168,92,6299.0,'2021-12-28');
-INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Heleno Cardoso',48,13,22411.0,'2021-12-26');
+INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Heleno Cardoso',148,13,22411.0,'2021-12-26');
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Heleno Cardoso',107,67,9788.0,'2021-12-24');
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Barry Allen',106,62,18942.0,'2021-12-20');
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Heleno Cardoso',40,26,11731.0,'2021-12-18');
